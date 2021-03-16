@@ -4133,6 +4133,6 @@ input, select, textarea {
     }
 
     .skill-icon {
-        width: 100px;
-        height: 100px;
+        width: 100px !important;
+        height: 100px !important;
     }
