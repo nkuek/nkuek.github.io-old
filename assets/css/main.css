@@ -2495,6 +2495,7 @@ input, select, textarea {
 				text-decoration: none;
                 justify-content: center;
                 align-items: center;
+                display: flex;
 			}
 
 				.icon.major.alt:before {
@@ -4122,6 +4123,12 @@ input, select, textarea {
         background-color: #4f4f4f;
     }
 
+    .portfolio-link {
+        cursor: pointer;
+        border-radius: 0%;
+    }
+
     .fa-fighter-jet {
         cursor: pointer;
+        display: flex;
     }
