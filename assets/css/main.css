@@ -4137,5 +4137,5 @@ input, select, textarea {
     }
 
     .portfolio-container {
-        color: black
+        color: black !important
     }
