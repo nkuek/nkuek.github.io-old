@@ -880,10 +880,6 @@ input, select, textarea {
 			margin-left: -2.5em;
 		}
 
-			.row > * {
-				padding: 0 0 0 2.5em;
-			}
-
 			.row.gtr-uniform {
 				margin-top: -2.5em;
                 display: flex;
@@ -4134,6 +4130,7 @@ input, select, textarea {
 
     .skill-icon {
         font-size: 100px !important;
+        margin: 50px;
     }
 
     .portfolio-header,
