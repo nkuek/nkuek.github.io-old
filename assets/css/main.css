@@ -2192,7 +2192,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: white !important;
+			background: white;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2476,11 +2476,11 @@ input, select, textarea {
 		.icon.major {
 			background: #272833;
 			border-radius: 0%;
-			height: 6em;
+			height: 12em;
 			line-height: 5.65em;
 			margin: 0 0 2em 0;
 			text-align: center;
-			width: 6em;
+			width: 12em;
             display: flex;
 		}
 
@@ -4136,6 +4136,7 @@ input, select, textarea {
         font-size: 100px !important;
     }
 
-    .portfolio-container {
-        color: black !important
+    .portfolio-header,
+    .portfolio-link {
+        color: black
     }
