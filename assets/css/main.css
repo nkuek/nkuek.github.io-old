@@ -4135,3 +4135,8 @@ input, select, textarea {
     .skill-icon {
         font-size: 50px;
     }
+
+    .skills-header,
+    .skills-content {
+        color: black
+    }
