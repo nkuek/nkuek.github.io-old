@@ -751,6 +751,9 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 		}
 
 		.row > .off-4 {
@@ -883,6 +886,8 @@ input, select, textarea {
 
 			.row.gtr-uniform {
 				margin-top: -2.5em;
+                display: flex;
+                justify-content: center;
 			}
 
 				.row.gtr-uniform > * {
@@ -2488,6 +2493,8 @@ input, select, textarea {
 
 			.icon.major.alt {
 				text-decoration: none;
+                justify-content: center;
+                align-items: center;
 			}
 
 				.icon.major.alt:before {
@@ -4110,3 +4117,7 @@ input, select, textarea {
 					}
 
 	}
+
+    .portfolio-link:hover {
+        background-color: #4f4f4f;
+    }
