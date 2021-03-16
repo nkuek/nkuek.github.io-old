@@ -4132,3 +4132,8 @@ input, select, textarea {
         cursor: pointer;
         display: flex;
     }
+
+    #portfolio {
+        background-color: #80cbc4;
+        color: black;
+    }
