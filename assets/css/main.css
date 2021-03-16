@@ -4132,7 +4132,6 @@ input, select, textarea {
         margin: 50px;
     }
 
-    .portfolio-header,
-    .portfolio-link {
+    .portfolio-header {
         color: black
     }
