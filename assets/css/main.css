@@ -2427,7 +2427,6 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			display: inline-block;
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
@@ -2460,7 +2459,6 @@ input, select, textarea {
 			.icon.alt:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				display: inline-block;
 				font-style: normal;
 				font-variant: normal;
 				text-rendering: auto;
@@ -2478,7 +2476,6 @@ input, select, textarea {
 		.icon.major {
 			background: #272833;
 			border-radius: 100%;
-			cursor: default;
 			height: 6em;
 			line-height: 5.65em;
 			margin: 0 0 2em 0;
@@ -2500,7 +2497,6 @@ input, select, textarea {
 				.icon.major.alt:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					display: inline-block;
 					font-style: normal;
 					font-variant: normal;
 					text-rendering: auto;
