@@ -2475,7 +2475,7 @@ input, select, textarea {
 
 		.icon.major {
 			background: #272833;
-			border-radius: 100%;
+			border-radius: 0%;
 			height: 6em;
 			line-height: 5.65em;
 			margin: 0 0 2em 0;
@@ -4133,6 +4133,5 @@ input, select, textarea {
     }
 
     .skill-icon {
-        width: 100px !important;
-        height: 100px !important;
+        font-size: 50px;
     }
