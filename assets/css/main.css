@@ -2192,7 +2192,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #e44c65;
+			background: white;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -3934,7 +3934,6 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
