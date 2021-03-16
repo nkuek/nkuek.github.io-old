@@ -891,7 +891,7 @@ input, select, textarea {
 			}
 
 				.row.gtr-uniform > * {
-					padding-top: 2.5em;
+					padding-top: 1em;
 				}
 
 		.row.gtr-150 {
@@ -4133,7 +4133,7 @@ input, select, textarea {
     }
 
     .skill-icon {
-        font-size: 50px;
+        font-size: 100px !important;
     }
 
     .skills-header,
