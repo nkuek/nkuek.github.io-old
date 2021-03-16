@@ -4121,3 +4121,7 @@ input, select, textarea {
     .portfolio-link:hover {
         background-color: #4f4f4f;
     }
+
+    .fa-fighter-jet {
+        cursor: pointer;
+    }
