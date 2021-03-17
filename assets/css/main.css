@@ -1586,7 +1586,6 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -2.5em;
 				}
 
 					.row.gtr-uniform {
@@ -2051,7 +2050,6 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -2.5em;
 				}
 
 					.row.gtr-uniform {
@@ -2149,6 +2147,7 @@ input, select, textarea {
 
 	form {
 		margin: 0 0 2em 0;
+        padding: 4.5em 2.5em 2.5em 2.5em;
 	}
 
 		form.cta {
@@ -4081,4 +4080,8 @@ input, select, textarea {
 
     .portfolio-header {
         color: black
+    }
+
+    #contact {
+        background-color: #80cbc4;
     }
