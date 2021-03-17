@@ -885,10 +885,6 @@ input, select, textarea {
                 justify-content: center;
 			}
 
-				.row.gtr-uniform > * {
-					padding-top: 1em;
-				}
-
 		.row.gtr-150 {
 			margin-top: 0;
 			margin-left: -3.75em;
@@ -1128,10 +1124,6 @@ input, select, textarea {
 						margin-top: -2.5em;
 					}
 
-						.row.gtr-uniform > * {
-							padding-top: 2.5em;
-						}
-
 				.row.gtr-150 {
 					margin-top: 0;
 					margin-left: -3.75em;
@@ -1365,17 +1357,10 @@ input, select, textarea {
 					margin-left: -2.5em;
 				}
 
-					.row > * {
-						padding: 0 0 0 2.5em;
-					}
-
 					.row.gtr-uniform {
 						margin-top: -2.5em;
 					}
 
-						.row.gtr-uniform > * {
-							padding-top: 2.5em;
-						}
 
 				.row.gtr-150 {
 					margin-top: 0;
