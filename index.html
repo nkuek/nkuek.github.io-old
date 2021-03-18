@@ -25,6 +25,7 @@
 							<li><a href="https://www.linkedin.com/in/nick-kuek">Resume</a></li>
 							<li><a href="#portfolio">Portfolio</a></li>
 							<li><a href="#skills">Skills</a></li>
+							<li><a href="#education">Education</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
@@ -35,7 +36,7 @@
 					<div class="content">
 						<header>
 							<h2>Hi, I'm Nick.</h2>
-							<p>Welcome to my portfolio!</p>
+							<p>I'm a Software Engineer</p>
 						</header>
 						<span class="image"><img src="images/profile_pic.jpg" alt="" /></span>
                         <a href="#portfolio" class="goto-next scrolly">Next</a>
@@ -51,8 +52,10 @@
 						<div class="box alt">
 							<div class="row gtr-uniform">
 								<section style='padding-top: 2em;' class="col-4 col-6-medium col-12-xsmall">
+                                    <div class='portfolio-wrap'>
                                     <a class='portfolio-link icon solid alt major fas fa-fighter-jet' target='_blank' href='https://squadron-gaming.herokuapp.com/'>
                                     </a>
+                                    </div>
 									<h3 style='font-size: 1.5em' class='portfolio-header'>Squadron</h3>
 									<p style="color: black; font-size: 1.2em">Create, discover, and join gaming groups based on mutual interests!</p>
 								</section>
@@ -69,15 +72,15 @@
 						<div class="box alt">
 							<div class="row gtr-uniform" style="width: 100%">
                                 <i class="skill-icon devicon-javascript-plain colored"></i>
-                                <i class="skill-icon devicon-express-original-wordmark colored"></i>
+                                <i style='color: white' class="skill-icon devicon-express-original-wordmark colored"></i>
                                 <i class="skill-icon devicon-sequelize-plain-wordmark colored"></i>
                                 <i class="skill-icon devicon-python-plain-wordmark colored"></i>
                                 <i class="skill-icon devicon-react-original-wordmark colored"></i>
                                 <i class="skill-icon devicon-redux-original colored"></i>
                                 <i class="skill-icon devicon-postgresql-plain-wordmark colored"></i>
                                 <i class="skill-icon devicon-html5-plain colored"></i>
-                                <i class="skill-icon devicon-flask-original-wordmark colored"></i>
-                                <i class="skill-icon devicon-sqlalchemy-original-wordmark colored"></i>
+                                <i style='color: white' class="skill-icon devicon-flask-original-wordmark colored"></i>
+                                <i style='color: white' class="skill-icon devicon-sqlalchemy-original-wordmark colored"></i>
                                 <i class="skill-icon devicon-css3-plain colored"></i>
                                 <i class="skill-icon devicon-nodejs-plain colored"></i>
                                 <i class=" skill-icon devicon-docker-plain-wordmark colored"></i>
@@ -87,11 +90,56 @@
 					</div>
 				</section>
 
+            <!-- Education -->
+            <section id="education" class="wrapper style1 special fade-up">
+                <div class='education-wrapper'>
+                    <header class='major' style='margin-bottom: 20px;'>
+                        <h2 style='color: black'>Education</h2>
+                    </header>
+                    <div class='education-body'>
+                        <div class='education-card'>
+                            <div class='education-info'>
+                                <div class='education-card-header'>
+                                    <div class='education-year'>2020</div>
+                                    <div class='education-type'>Full Stack Development</div>
+                                    <div class='education-name'>app Academy</div>
+                                </div>
+                                <div class='image-container'>
+                                    <img height='150px' width='150px' src='images/appacademy.png'>
+                                </div>
+                            </div>
+                            <hr class='education-separator'>
+                            <div class='education-description'>
+                                Rigorous 1000+ hour boot camp
+                            </div>
+                        </div>
+                        <div class='education-card'>
+                            <div class='education-info'>
+                                <div class='education-card-header'>
+
+                                    <div class='education-year'>2014-2018</div>
+                                    <div class='education-type'>Biology</div>
+                                    <div class='education-name'>Emory University</div>
+                                </div>
+                                <div class='image-container'>
+                                    <img height='150px' width='150px' src='images/emory.png'>
+                                 </div>
+                            </div>
+                            <hr class='education-separator'>
+                            <div class='education-description'>
+                                Bachelor's of Science in Biology
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
 			<!-- Contact -->
 				<section id="contact" class="wrapper style1 special fade-up">
 					<div style="background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url(images/overlay.png); padding: 30px" class="container">
-						<header class="major">
-							<h2 style='color: black'>Contact Me</h2>
+						<header style='margin-bottom: 20px;' class="major">
+							<h2>Contact Me</h2>
 						</header>
                         <form
                         action="https://formspree.io/f/xnqoeygk"
@@ -106,7 +154,7 @@
                                 Your message:
                                 <textarea name="message"></textarea>
                             </label>
-                            <button type="submit">Send Message</button>
+                            <button class='contact-button' type="submit">Send Message</button>
                          </form>
                         <div class='box alt'>
                             <ul class="icons">

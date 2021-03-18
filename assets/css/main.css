@@ -2418,7 +2418,6 @@ input, select, textarea {
 			border-radius: 0%;
 			height: 12em;
 			line-height: 5.65em;
-			margin: 0 0 2em 0;
 			text-align: center;
 			width: 12em;
             display: flex;
@@ -2555,7 +2554,8 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-        text-align: center
+        display: flex;
+        justify-content: space-evenly;
 	}
 
 		ul.icons li {
@@ -2570,7 +2570,7 @@ input, select, textarea {
 			}
 
 				ul.icons li .icon:before {
-					font-size: 100px;
+					font-size: 50px;
 				}
 
 /* Actions */
@@ -4054,13 +4054,32 @@ input, select, textarea {
 
 	}
 
-    .portfolio-link:hover {
-        background-color: #7c7c7c;
+    .portfolio-wrap {
+        position: relative;
+        height: 192px;
+        transition: box-shadow 0.2s ease 0.4s, transform 0.2s ease 0.4s;
+    }
+
+    .portfolio-wrap:hover {
+        box-shadow: rgb(95 103 107) 20px 20px 0px;
+        -webkit-transform: translateY(-10px) translateX(-10px);
     }
 
     .portfolio-link {
         cursor: pointer;
         border-radius: 0%;
+        transition: all .3s ease-in-out;
+        width: 192px;
+        height: 192px;
+        border: 2px solid white;
+        outline: 2px solid white;
+        outline-offset: -2px;
+        margin: 0px;
+    }
+    .portfolio-link:hover {
+        /* background-color: #b3b3b3; */
+        outline-offset: -8px;
+        /* transform: scale(1.05); */
     }
 
     .fa-fighter-jet {
@@ -4068,8 +4087,9 @@ input, select, textarea {
         display: flex;
     }
 
-    #portfolio {
-        background-color: #80cbc4;
+    #portfolio,
+    #education {
+        background-color: #179e9e;
         color: white;
     }
 
@@ -4079,9 +4099,94 @@ input, select, textarea {
     }
 
     .portfolio-header {
-        color: black
+        color: black;
+        margin-top: 20px;
     }
 
-    #contact {
-        background-color: #80cbc4;
+    form {
+        text-align: left;
+    }
+
+    input,
+    label,
+    textarea {
+        font: inherit;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .contact-button {
+        text-align: left;
+        font: inherit;
+        font-weight: 300;
+        display: inline-block;
+        cursor: pointer;
+        background-color: inherit;
+        border: none;
+        line-height: 1;
+        border-radius: 2px;
+        padding: 1em 2em 1em 0em;
+        color: #80cbc4;
+        transition: background-color 500ms ease-in-out, padding 500ms ease-in-out, color 500ms ease-in-out
+    }
+
+    .contact-button:hover,
+    .contact-button:focus {
+        background-color:#138f8f;
+        color: white;
+        padding-left: 2em;
+    }
+
+    .education-body {
+        display: flex;
+    }
+
+    .education-card {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 20px;
+        padding: 30px;
+        background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url(images/overlay.png); padding: 30px"
+    }
+
+    .education-card-header {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    .education-year {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .education-type,
+    .education-name,
+    .education-description {
+        font-weight: 300;
+        font-size: 1em;
+    }
+
+    .education-type {
+        line-height: 1;
+        margin: 10px;
+    }
+
+
+    .education-name {
+        border: .5px solid rgb(194, 194, 194);
+        padding: 5px 10px;
+        line-height: 1;
+        border-radius: 2px;
+    }
+
+    .education-info {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .education-separator {
+        margin: 2em;
     }
