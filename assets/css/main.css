@@ -4060,6 +4060,12 @@ input, select, textarea {
         transition: box-shadow 0.2s ease 0.4s, transform 0.2s ease 0.4s;
     }
 
+    .portfolio-section {
+        padding: 20px;
+        padding-top: 0px;
+        background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url(images/overlay.png);
+    }
+
     .portfolio-wrap:hover {
         box-shadow: rgb(95 103 107) 20px 20px 0px;
         -webkit-transform: translateY(-10px) translateX(-10px);
@@ -4139,15 +4145,25 @@ input, select, textarea {
 
     .education-body {
         display: flex;
+        justify-content: center;
     }
+
+    @media only screen and (max-width: 750px) {
+        .education-body {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
 
     .education-card {
         display: flex;
+        box-sizing: border-box;
         flex-direction: column;
-        width: 60%;
+        max-width: 400px;
         margin: 20px;
         padding: 30px;
-        background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url(images/overlay.png); padding: 30px"
+        background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url(images/overlay.png)
     }
 
     .education-card-header {
