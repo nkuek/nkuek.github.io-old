@@ -4064,6 +4064,7 @@ input, select, textarea {
 
     .portfolio-wrap:hover {
         box-shadow: rgb(95 103 107) 20px 20px 0px;
+        transform: translateY(-10px) translateX(-10px);
         -webkit-transform: translateY(-10px) translateX(-10px);
     }
 
@@ -4102,6 +4103,18 @@ input, select, textarea {
         background-color: #179e9e
     }
 
+    .whatsappening-link i,
+    .squadron-link i {
+        font-size: 3em;
+        color: white;
+        transition: color 500ms
+    }
+
+    .whatsappening-link:hover > i,
+    .squadron-link:hover > i {
+        color: #179e9e
+    }
+
     .fa-fighter-jet {
         cursor: pointer;
         display: flex;
@@ -4121,6 +4134,11 @@ input, select, textarea {
     .portfolio-header {
         color: black;
         margin-top: 20px;
+        font-weight: 600;
+    }
+
+    .skills-header {
+        font-weight: 600
     }
 
     form {
