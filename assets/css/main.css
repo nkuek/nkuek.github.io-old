@@ -2102,9 +2102,7 @@ input, select, textarea {
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
-		line-height: 1.75em;
+		font-size: 2em;
 	}
 
 	header h3 + p {
@@ -3083,7 +3081,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color: #5480f1;
 		}
 
 		.spotlight.style2 .content {
@@ -4184,13 +4182,6 @@ input, select, textarea {
         justify-content: center;
     }
 
-    @media only screen and (max-width: 750px) {
-        .education-body {
-            flex-direction: column;
-            align-items: center;
-        }
-
-    }
     .portfolio-section {
         margin-top: 20px;
         max-width: 100ch;
@@ -4199,10 +4190,22 @@ input, select, textarea {
 
     .portfolio-section > p {
         max-width: 45ch;
+        font-size: 1.2em;
         text-align: left;
         line-height: 1.6
     }
 
+    @media only screen and (max-width: 750px) {
+        .education-body {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .portfolio-section > p {
+            font-size: 1em;
+            padding: 0em 1.5em;
+        }
+    }
 
     .education-card {
         display: flex;
