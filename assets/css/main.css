@@ -4262,3 +4262,16 @@ input, select, textarea {
     .row.gtr-uniform > section {
         flex-basis: 100%;
     }
+
+    .button.live {
+        background-color: #1b67ff;
+    }
+
+    .button.live:hover {
+        box-shadow: inset 0 0 0 1px white;
+        color: white !important;
+    }
+
+    .portfolio-tech {
+        line-height: 1.3;
+    }
