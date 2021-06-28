@@ -3194,11 +3194,19 @@ input[type='button']:disabled,
 }
 
 .spotlight.style2 .content {
-    border-color: #5480f1;
+    border-color: #179e9e;
 }
 
 .spotlight.style3 .content {
-    border-color: #39c088;
+    border-color: #5480f1;
+}
+
+.spotlight.style4 .content {
+    border-color: rgb(255, 62, 62);
+}
+
+.spotlight.style5 .content {
+    border-color: rgb(130, 42, 130);
 }
 
 .spotlight.inactive .content {
@@ -4404,6 +4412,12 @@ textarea {
     padding: 5px 10px;
     line-height: 1;
     border-radius: 2px;
+    color: inherit;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.education-name:hover {
+    background-color: gray;
 }
 
 .education-info {
